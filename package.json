@@ -1,0 +1,44 @@
+{
+  "name": "corona",
+  "version": "0.1.0",
+  "homepage": "https://acimanx.github.com/corona",
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "papaparse": "^5.1.1",
+    "react": "^16.13.0",
+    "react-datepicker": "^2.14.0",
+    "react-dom": "^16.13.0",
+    "react-leaflet": "^2.6.3",
+    "react-leaflet-choropleth": "^2.0.1",
+    "react-papaparse": "^3.0.0",
+    "react-scripts": "3.4.0",
+    "react-select": "^3.0.8",
+    "swr": "^0.1.18"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "private": true
+}
